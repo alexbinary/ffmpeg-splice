@@ -1,0 +1,29 @@
+{
+  "name": "ffmpeg-splice",
+  "version": "0.1.0",
+  "description": "splice videos with ffmpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbinary/ffmpeg-splice.git"
+  },
+  "keywords": [
+    "splice",
+    "video",
+    "ffmpeg",
+    "editing",
+    "cut"
+  ],
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbinary/ffmpeg-splice/issues"
+  },
+  "homepage": "https://github.com/alexbinary/ffmpeg-splice#readme",
+  "dependencies": {
+    "fluent-ffmpeg": "2.0.1"
+  }
+}
