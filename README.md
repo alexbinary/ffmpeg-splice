@@ -4,9 +4,9 @@
 
 ```javascript
 
-require('ffmpeg-splice').splice({
+require('ffmpeg-splice')({
 
-  input: 'input_video.avi',
+  input: 'video.avi',
   splices: [
     {
       start: 10 * 1000,
@@ -16,8 +16,8 @@ require('ffmpeg-splice').splice({
       duration: 5 * 1000,
     }
   ],
-  output: 'output_video.avi', // will be the concatenation
-                              // of the specified segments.
+  output: 'spliced_video.avi', // will be the concatenation
+                               // of the specified segments.
   tmpFolder: '/tmp',
 
 }, function(err) {
