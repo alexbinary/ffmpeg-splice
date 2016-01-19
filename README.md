@@ -2,6 +2,14 @@
 
 > Splice videos with ffmpeg
 
+## Install
+
+```
+npm install ffmpeg-splice
+```
+
+## Usage
+
 ```javascript
 
 require('ffmpeg-splice')({
